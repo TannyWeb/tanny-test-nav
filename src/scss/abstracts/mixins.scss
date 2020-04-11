@@ -1,0 +1,17 @@
+@mixin min-width($threshold) {
+	@media screen and (min-width: scut-rem($threshold)) {
+		@content;
+	}
+}
+
+//example
+
+/* 
+    .MyComponent {
+        display: block
+
+        @include min-width(768) {
+            display: flex;
+        }
+    }
+*/
