@@ -1,0 +1,22 @@
+Example of a 7-1 Sass file structure 
+
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+
+@import 'vendors/random 3rd party scss code or stuff';
+
+@import 'base/normalize';
+
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+@import 'components/buttons';
+@import 'components/hero';
+@import 'components/pull-quote';
+
+@import 'pages/home';
+@import 'page/contact;
