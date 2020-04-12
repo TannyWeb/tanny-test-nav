@@ -1,3 +1,5 @@
 $primary: pink;
 $danger: purple;
-@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap";
+@import '../scss/base/normalize.scss';
+@import '../scss/layout/layout.scss';
